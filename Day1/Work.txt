@@ -1,0 +1,69 @@
+Link to download Git
+https://git-scm.com/downloads
+
+Once intallation is over
+Open cmd prompt and key in
+>git --version
+
+To create alocal repo in the current location
+>git init
+which will give u
+"Initialized empty Git repository <path>"
+
+To check the files that have to be staged or commited
+>git status
+
+To stage all teh files in the current location to the local repo
+>git add -A
+
+To commit all the files that have been staged
+>git commit -m "<Commit msg>"
+note:-> Please give a proper commit msg that show what new has been added
+
+
+In the site
+https://github.com/
+
+create yourself an aacount
+
+To link the local repo with the remote repo
+>git remote add origin <repo link>
+Example
+>git remote add origin https://github.com/gayat19/KaniniAug2021Batch2.git
+
+To push the files from the local repo to the remote repo
+>git push origin master
+
+
+To get from the remote repo to the local repo
+>git pull origin master
+
+--------------------------------------------------------------
+RDBMS
+EF Codd
+Entity
+Attributes -> Simple/Single, Multi value, Derived, Complex
+Candidate key
+Primary Key
+Foreign Key
+Composite Key
+
+1stNF -> Every entity should have PK, NO multi vlaued attributes
+2nd NF-> should be in 1NF and no partial dependency
+3rd NF-> Should be in 2NF and no Transitive dependency
+
+A shop has items that are supplied by different suppliers
+Every Item that is sold to a customer has to be billed
+please create a database which enables the shop to store all the information needed
+Item
+Supplier
+Customer
+Bill
+BillDetails
+
+
+
+
+
+
+
