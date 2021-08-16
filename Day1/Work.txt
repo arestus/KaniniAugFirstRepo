@@ -1,0 +1,14 @@
+Link to download Git
+https://git-scm.com/downloads
+
+Once intallation is over
+Open cmd prompt and key in
+>git --version
+
+To create alocal repo in the current location
+>git init
+which will give u
+"Initialized empty Git repository <path>"
+
+To check the files that have to be staged or commited
+>git status
