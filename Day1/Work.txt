@@ -35,6 +35,34 @@ To push the files from the local repo to the remote repo
 >git push origin master
 
 
+To get from the remote repo to the local repo
+>git pull origin master
+
+--------------------------------------------------------------
+RDBMS
+EF Codd
+Entity
+Attributes -> Simple/Single, Multi value, Derived, Complex
+Candidate key
+Primary Key
+Foreign Key
+Composite Key
+
+1stNF -> Every entity should have PK, NO multi vlaued attributes
+2nd NF-> should be in 1NF and no partial dependency
+3rd NF-> Should be in 2NF and no Transitive dependency
+
+A shop has items that are supplied by different suppliers
+Every Item that is sold to a customer has to be billed
+please create a database which enables the shop to store all the information needed
+Item
+Supplier
+Customer
+Bill
+BillDetails
+
+
+
 
 
 
